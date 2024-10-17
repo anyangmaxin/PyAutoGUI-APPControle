@@ -62,3 +62,5 @@ try:
         pyautogui.click(location[0], location[1])
 except pyautogui.ImageNotFoundException:
     print("未能找到开始游戏图片位置，确认图片路径及其存在性。")
+
+
